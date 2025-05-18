@@ -1,0 +1,69 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 58f249dd-fdaa-41a6-84a3-c0fd30f7ebbd
+  title: Open Data Visio
+  abbreviations:
+    FAIR: Findable, Accessible, Interoperable and Reusable
+  description: The Jupyter notebooks to analyse real-time weather forecast data
+  keywords:
+      - jupyter-book
+      - open data explorer
+  authors: aswind-1h2h3
+  # github: https://github.com/ECMWFCode4Earth/open-data-explorer
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  toc:
+    - file: intro.md
+    - title: Open Data
+      children:
+      # the subchapter Data Structure included
+        - file: ifs.md 
+          title: Integrated Forecasting System
+        - file: aifs.md
+          title: Artificial Intelligence Forecasting System
+    - file: datadownload.ipynb
+    - title: Case studies of extreme weather events
+      children:
+        - file: thunderstorms.ipynb
+          title: Thunderstorms
+        - file: heavy-rain.ipynb
+          title: Heavy rain
+        - file: damaging-winds.ipynb
+          title: High Winds
+        - file: heat-waves.ipynb
+          title: Heat Wave
+        - file: cold-spells.ipynb
+          title: Cold Spells
+    - file: recap.md
+
+site:
+  template: book-theme
+  options:
+      # folders: true
+      # favicon: favicon.ico
+      logo: logo_challenge32.png
+  nav:
+    - title: Intro
+      url: /intro
+    - title: Open Data
+      children:
+        - title: Integrated Forecasting System
+          url: /ifs
+        - title: Artificial Intelligence Forecasting System
+          url: /aifs
+    - title: Data Download
+      url: /datadownload
+    - title: Case studies of extreme weather events
+      children:
+        - title: Thunderstorms
+          url: /thunderstorms
+        - title: Heavy Rain
+          url: /heavy-rain
+        - title: High Winds
+          url: /damaging_winds
+        - title: Heat Wave
+          url: /heat-waves
+        - title: Cold Spells
+          url: /cold-spells
+    - title: Conclusion
+      url: /recap
