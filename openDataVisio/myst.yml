@@ -10,60 +10,69 @@ project:
       - jupyter-book
       - open data explorer
   authors: aswind-1h2h3
-  # github: https://github.com/ECMWFCode4Earth/open-data-explorer
+  github: https://github.com/ECMWFCode4Earth/open-data-explorer/
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: intro.md
     - title: Open Data
       children:
       # the subchapter Data Structure included
-        - file: ifs.md 
+        - file: ./opendata/ifs.md 
           title: Integrated Forecasting System
-        - file: aifs.md
+        - file: ./opendata/aifs.md
           title: Artificial Intelligence Forecasting System
-    - file: datadownload.ipynb
-    - title: Case studies of extreme weather events
+    - title: Accessing Data
       children:
-        - file: thunderstorms.ipynb
+        - file: ./datadownload/find-data.ipynb
+          title: ECMWF Open Data
+        - file: ./datadownload/data-download.ipynb
+          title: Retrieve Data
+    - title: Case Studies
+      children:
+        - file: ./examples/thunderstorms.ipynb
           title: Thunderstorms
-        - file: heavy-rain.ipynb
-          title: Heavy rain
-        - file: damaging-winds.ipynb
+        - file: ./examples/heavy-rain.ipynb
+          title: Heavy Rain
+        - file: ./examples/damaging-winds.ipynb
           title: High Winds
-        - file: heat-waves.ipynb
+        - file: ./examples/heat-waves.ipynb
           title: Heat Wave
-        - file: cold-spells.ipynb
+        - file: ./examples/cold-spells.ipynb
           title: Cold Spells
     - file: recap.md
 
 site:
   template: book-theme
   options:
-      # folders: true
-      # favicon: favicon.ico
-      logo: logo_challenge32.png
+      folders: true
+      favicon: ./_static/favicon.ico
+      logo: ./images/logo_challenge32.png
   nav:
     - title: Intro
       url: /intro
     - title: Open Data
       children:
         - title: Integrated Forecasting System
-          url: /ifs
+          url: /opendata/ifs
         - title: Artificial Intelligence Forecasting System
-          url: /aifs
-    - title: Data Download
-      url: /datadownload
-    - title: Case studies of extreme weather events
+          url: /opendata/aifs
+    - title: Accessing Data
+      children:
+        - title: ECMWF Open Data
+          url: /datadownload/find-data
+        - title: Retrieve Data
+          url: /datadownload/data-download
+    - title: Case Studies
       children:
         - title: Thunderstorms
-          url: /thunderstorms
+          url: /examples/thunderstorms
         - title: Heavy Rain
-          url: /heavy-rain
+          url: /examples/heavy-rain
         - title: High Winds
-          url: /damaging_winds
+          url: /examples/damaging-winds
         - title: Heat Wave
-          url: /heat-waves
+          url: /examples/heat-waves
         - title: Cold Spells
-          url: /cold-spells
+          url: /examples/cold-spells
     - title: Conclusion
       url: /recap
