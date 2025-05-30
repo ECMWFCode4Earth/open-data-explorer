@@ -13,12 +13,9 @@ It will guide you through the following steps:
 
 The Open Data Explorer also includes a wide variety of case studies. Check out the content pages bundled with this handbook to see more.
 
-```{figure} logo_challenge32.png
----
-scale: 10%
-align: left
----
-```
+:::{figure} /images/logo_challenge32.png
+:label: fig:logo
+:::
 
 :::{card}
 The Open Data Visio is part of the [Code for Earth](https://codeforearth.ecmwf.int/) an innovation programme run by the European Centre for Medium-Range Weather Forecasts (ECMWF).
