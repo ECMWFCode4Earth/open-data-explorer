@@ -1,0 +1,14 @@
+earthkit==0.11.1
+ecmwf-opendata==0.3.19
+jupyter-book==2.0.0a3
+jupyterlab==4.4.3
+jupyterlab_myst==2.4.2
+numpy==2.2.6
+openmeteo_requests==1.5.0
+pandas==2.2.3
+planetary-computer==1.0.0
+pystac-client==0.8.6
+requests==2.32.3
+requests-cache==1.2.1
+retry-requests==2.0.0
+xarray==2025.4.0
