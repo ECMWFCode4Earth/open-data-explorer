@@ -9,4 +9,19 @@ The medium-range forecasts consist of a high-resolution (HRES) forecast and the 
 The long-range (seasonal) forecast provide information about the Earth system components (atmosphere, ocean, land) up to 7 months into the future.
 ```
 
-These products are produced at 0.25 degrees resolution in GRIB edition 2 format and are available 1 hour after the real-time dissemination schedule.
+These products are produced at 0.25 degrees resolution in GRIB edition 2 format and are available 1 hour after the real-time dissemination schedule. The files are named as `ROOT`/`yyyymmdd`/`HH`z/`model`/`resol`/`stream`/`yyyymmdd` `HH`0000-`step` `U`-`stream`-`type`.`format`.
+
+| File-naming convention | Values |
+| -------- | ---- |
+| ROOT | URL of a site hosting the open data |
+| yyyymmdd | reference date |
+| HH | 00, 06, 12, or 18 |
+| model | IFS |
+| resol | 0p25 |
+| stream | oper, enfo, waef, wave, scda, scwv, or mmsf |
+| step | forecast time step |
+| U | unit of the time step (h or m; m only for mmsf) |
+| type | fc, ef, ep, or tf |
+| format | grib2 or bufr |
+
+The valid combinations are in detail described [here](https://confluence.ecmwf.int/display/DAC/ECMWF+open+data%3A+real-time+forecasts+from+IFS+and+AIFS).
