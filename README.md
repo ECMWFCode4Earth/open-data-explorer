@@ -1,6 +1,6 @@
 # ECMWF Open Data Explorer
 
-The repository contains Jupyter notebook-based tutorials which will offer you the support for accessing [open data](https://confluence.ecmwf.int/display/DAC/ECMWF+open+data%3A+real-time+forecasts+from+IFS+and+AIFS), downloading data, and data analysis using Python libraries.
+The repository contains [Jupyter notebook-based tutorials](https://ecmwfcode4earth.github.io/open-data-explorer/) which will offer you the support for accessing [open data](https://confluence.ecmwf.int/display/DAC/ECMWF+open+data%3A+real-time+forecasts+from+IFS+and+AIFS), downloading data, and data analysis using Python libraries.
 
 > This project has been developed during the [Code for Earth](https://codeforearth.ecmwf.int/) innovation programme run by the European Centre for Medium-Range Weather Forecasts (ECMWF). The challenge description is available [here](https://github.com/ECMWFCode4Earth/Challenges_2025/issues/7).
 
