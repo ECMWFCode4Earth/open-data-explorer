@@ -23,3 +23,9 @@ More information about the file-naming convention is available on the [IFS](./if
 | U | unit of the time step (h) |
 | type | fc |
 | format | grib2 or bufr |
+
+## Index files
+To find out more about index files, visit the [IFS](./ifs.md) (Integrated Forecasting System) Data website.
+```
+{"domain": "g", "date": "20250608", "time": "0000", "expver": "0001", "class": "ai", "type": "fc", "stream": "oper", "step": "0", "levtype": "sfc", "param": "100v", "_offset": 0, "_length": 1382370}
+```
