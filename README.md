@@ -5,18 +5,23 @@ The repository contains [Jupyter notebook-based tutorials](https://ecmwfcode4ear
 > This project has been developed during the [Code for Earth](https://codeforearth.ecmwf.int/) innovation programme run by the European Centre for Medium-Range Weather Forecasts (ECMWF). The challenge description is available [here](https://github.com/ECMWFCode4Earth/Challenges_2025/issues/7).
 
 ## Installation
-You will need to install [Python](https://www.python.org/downloads/) (Python 3.10) and we recommend you to use a UNIX-based system. First, you will create the virtual environment called `venv` to isolate your dependencies from other projects and activate it
+You will need to install [Python](https://www.python.org/downloads/) and we recommend you to use a UNIX-based system. First, you will create the virtual environment called [`venv`](https://docs.python.org/3.12/library/venv.html) to isolate your dependencies from other projects and activate it
 ```
-sudo apt install python3.10-venv
+sudo apt install python3.12-venv
+sudo apt install -y python3-pip
+
 python3 -m venv venv 
 source venv/bin/activate
+
+python3 -m pip install --upgrade pip
 ```
-Here we will work with [Jupyter Book 2](https://next.jupyterbook.org/) that is being rebuild on top of [MyST Document Engine](https://mystmd.org/).
+At the end of using your virtual environment, you deactivate it with
 ```
-pip install "jupyter-book>=2.0.0a0"
+deactivate
 ```
 The notebooks should be rendered with [`jupyterlab_myst`](https://mystmd.org/guide/quickstart-jupyter-lab-myst) as we will be using [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/).
 ```
+pip install jupyterlab
 npm install -g mystmd # install myst locally
 pip install jupyterlab_myst
 jupyter lab # start using Jupyter Lab
@@ -28,6 +33,10 @@ jupyter labextension list
 and you should see the output as
 ```
 jupyterlab-myst v2.x.x enabled OK
+```
+Here we will work with [Jupyter Book 2](https://next.jupyterbook.org/) that is being rebuild on top of [MyST Document Engine](https://mystmd.org/).
+```
+pip install "jupyter-book>=2.0.0a0"
 ```
 
 ## Usage
