@@ -14,6 +14,9 @@ python3 -m venv venv
 source venv/bin/activate
 
 python3 -m pip install --upgrade pip
+
+# Install all of the packages (including jupyterlab, jupyterlab_myst, and jupyter-book)
+python3 -m pip install -r requirements.txt
 ```
 At the end of using your virtual environment, you deactivate it with
 ```
@@ -37,6 +40,27 @@ jupyterlab-myst v2.x.x enabled OK
 Here we will work with [Jupyter Book 2](https://next.jupyterbook.org/) that is being rebuild on top of [MyST Document Engine](https://mystmd.org/).
 ```
 pip install "jupyter-book>=2.0.0a0"
+```
+To make use of Jupyter Book 2, you need to have [Node.js](https://nodejs.org/en/download) installed on your computer. If this is not the case, after executing the `jupyter book` command you will be prompt to install it
+```
+# Download and install nvm:
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+
+# in lieu of restarting the shell
+\. "$HOME/.nvm/nvm.sh"
+
+# Download and install Node.js:
+nvm install 24
+
+# Verify the Node.js version:
+node -v # Should print "v24.2.0".
+nvm current # Should print "v24.2.0".
+
+# Verify npm version:
+npm -v # Should print "11.3.0".
+
+# Update a new patch version of npm
+npm install -g npm@11.4.2
 ```
 
 ## Usage
