@@ -21,6 +21,8 @@ project:
           title: Integrated Forecasting System
         - file: ./opendata/aifs.md
           title: Artificial Intelligence Forecasting System
+        - file: ./opendata/parameters.md
+          title: Weather Variables
     - title: Accessing Data
       children:
         - file: ./datadownload/find-data.ipynb
@@ -48,7 +50,7 @@ site:
       favicon: ./_static/favicon.ico
       logo: ./images/logo_challenge32.png
   nav:
-    - title: Intro
+    - title: Home
       url: /intro
     #- title: Open Data
       #children:
