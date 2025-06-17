@@ -11,6 +11,10 @@ The AIFS products are released as soon as the data are produced. The open data a
 
 More information about the file-naming convention is available on the [IFS](./ifs.md) (Integrated Forecasting System) Data webpage.
 
+:::{table} File-naming convention of the ECMWF AIFS model outputs.
+:label: tableAIFS
+:align: center
+
 | File-naming convention | Values |
 | -------- | ---- |
 | ROOT | URL of a site hosting the open data |
@@ -23,6 +27,7 @@ More information about the file-naming convention is available on the [IFS](./if
 | U | unit of the time step (h) |
 | type | fc |
 | format | grib2 or bufr |
+:::
 
 ## Index files
 To find out more about index files, visit the [IFS](./ifs.md) (Integrated Forecasting System) Data website.

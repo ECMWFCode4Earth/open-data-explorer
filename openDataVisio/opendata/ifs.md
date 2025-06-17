@@ -11,6 +11,10 @@ The long-range (seasonal) forecast provide information about the Earth system co
 
 These products are produced at 0.25 degrees resolution in GRIB edition 2 format and are available 1 hour after the [real-time dissemination schedule](https://confluence.ecmwf.int/display/DAC/Dissemination+schedule). The files are named as `ROOT`/`yyyymmdd`/`HH`z/`model`/`resol`/`stream`/`yyyymmdd` `HH`0000-`step` `U`-`stream`-`type`.`format`.
 
+:::{table} File-naming convention of the ECMWF IFS model outputs.
+:label: tableIFS
+:align: center
+
 | File-naming convention | Values |
 | -------- | ---- |
 | ROOT | URL of a site hosting the open data |
@@ -23,6 +27,7 @@ These products are produced at 0.25 degrees resolution in GRIB edition 2 format 
 | U | unit of the time step (h or m; m only for mmsf) |
 | type | fc, ef, ep, or tf |
 | format | grib2 or bufr |
+:::
 
 The valid combinations are in detail described [here](https://confluence.ecmwf.int/display/DAC/ECMWF+open+data%3A+real-time+forecasts+from+IFS+and+AIFS).
 
