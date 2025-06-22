@@ -14,6 +14,7 @@ project:
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
     - file: intro.md
+    - file: ./real-time-data/about.md
     - title: Open Data
       children:
       # the subchapter Data Structure included
@@ -50,8 +51,8 @@ site:
       favicon: ./_static/favicon.ico
       logo: ./images/logo_challenge32.png
   nav:
-    - title: Home
-      url: /intro
+    - title: About
+      url: /real-time-data/about
     #- title: Open Data
       #children:
         #- title: Integrated Forecasting System
