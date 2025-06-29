@@ -19,13 +19,13 @@ More information about the file-naming convention is available on the [IFS](./if
 | -------- | ---- |
 | ROOT | URL of a site hosting the open data |
 | yyyymmdd | reference date |
-| HH | 00, 06, 12, or 18 |
+| HH | reference time |
 | model | AIFS |
 | resol | 0p25 |
-| stream | oper |
+| stream [^1] | oper |
 | step | forecast time step |
 | U | unit of the time step (h) |
-| type | fc |
+| type [^1] | fc |
 | format | grib2 or bufr |
 :::
 
@@ -34,3 +34,5 @@ To find out more about index files, visit the [IFS](./ifs.md) (Integrated Foreca
 ```
 {"domain": "g", "date": "20250608", "time": "0000", "expver": "0001", "class": "ai", "type": "fc", "stream": "oper", "step": "0", "levtype": "sfc", "param": "100v", "_offset": 0, "_length": 1382370}
 ```
+
+[^1]: Further information can be found in [Appendix](../appendix.md).

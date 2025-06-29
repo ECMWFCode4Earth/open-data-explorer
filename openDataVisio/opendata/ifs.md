@@ -19,13 +19,13 @@ These products are produced at 0.25 degrees resolution in GRIB edition 2 format 
 | -------- | ---- |
 | ROOT | URL of a site hosting the open data |
 | yyyymmdd | reference date |
-| HH | 00, 06, 12, or 18 |
+| HH | reference time |
 | model | IFS |
 | resol | 0p25 |
-| stream | oper, enfo, waef, wave, scda, scwv, or mmsf |
-| step | forecast time step |
-| U | unit of the time step (h or m; m only for mmsf) |
-| type | fc, ef, ep, or tf |
+| stream [^1] | oper, enfo, waef, wave, scda, scwv |
+| step [^1] | forecast time step |
+| U | unit of the time step (h) |
+| type [^1] | fc and ef |
 | format | grib2 or bufr |
 :::
 
@@ -36,3 +36,5 @@ Each GRIB file has its corresponding index file which can be accessed by substit
 ```
 {"domain": "g", "date": "20250608", "time": "0000", "expver": "0001", "class": "od", "type": "fc", "stream": "oper", "step": "0", "levtype": "sfc", "param": "asn", "_offset": 0, "_length": 71895}
 ```
+
+[^1]: Further information can be found in [Appendix](../appendix.md).

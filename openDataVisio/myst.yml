@@ -30,6 +30,12 @@ project:
           title: ECMWF Open Data
         - file: ./datadownload/data-download.ipynb
           title: Retrieve Data
+        - file: ./datadownload/source-aws.ipynb
+          title: Amazon S3 Buckets
+        - file: ./datadownload/source-azure.ipynb
+          title: Microsoft Planetary Computer
+        - file: ./datadownload/source-open-meteo.ipynb
+          title: Open-meteo
     - title: Case Studies
       children:
         - file: ./examples/thunderstorms.ipynb
@@ -43,6 +49,7 @@ project:
         - file: ./examples/cold-spells.ipynb
           title: Cold Spells
     - file: recap.md
+    - file: appendix.md
 
 site:
   template: book-theme
@@ -50,9 +57,9 @@ site:
       folders: true
       favicon: ./_static/favicon.ico
       logo: ./images/logo_challenge32.png
-  nav:
-    - title: About
-      url: /real-time-data/about
+  #nav:
+    #- title: About
+      #url: /real-time-data/about
     #- title: Open Data
       #children:
         #- title: Integrated Forecasting System
