@@ -3,7 +3,7 @@
 ## ECMWF real-time open weather data
 ---
 
-This one-stop shop Open Data Explorer provides you with tools to explore ECMWF real-time forecast data ([IFS](https://www.ecmwf.int/en/forecasts/datasets/open-data) and [AIFS](https://www.ecmwf.int/en/forecasts/dataset/aifs-machine-learning-data)). These open data are available to the public free of charge.
+This one-stop shop Open Data Explorer provides you with tools to explore ECMWF real-time forecast data ([IFS](https://www.ecmwf.int/en/forecasts/datasets/open-data) and [AIFS](https://www.ecmwf.int/en/forecasts/datasets/set-ix)). These open data are available to the public free of charge.
 
 Are you a researcher, operational meteorologist or meteorology enthusiast?
 It will guide you through the following steps:
