@@ -28,7 +28,7 @@ project:
       children:
         - file: ./datadownload/find-data.ipynb
           title: ECMWF Open Data
-        - file: ./datadownload/data-download.ipynb
+        - file: ./datadownload/retrieve-data.ipynb
           title: Retrieve Data
         - file: ./datadownload/source-aws.ipynb
           title: Amazon S3 Buckets
@@ -57,32 +57,7 @@ site:
       folders: true
       favicon: ./_static/favicon.ico
       logo: ./images/logo_challenge32.png
+      style: ./_static/styling.css
   #nav:
     #- title: About
       #url: /real-time-data/about
-    #- title: Open Data
-      #children:
-        #- title: Integrated Forecasting System
-          #url: /opendata/ifs
-        #- title: Artificial Intelligence Forecasting System
-          #url: /opendata/aifs
-    #- title: Accessing Data
-      #children:
-        #- title: ECMWF Open Data
-          #url: /datadownload/find-data
-        #- title: Retrieve Data
-          #url: /datadownload/data-download
-    #- title: Case Studies
-      #children:
-        #- title: Thunderstorms
-          #url: /examples/thunderstorms
-        #- title: Heavy Rain
-          #url: /examples/heavy-rain
-        #- title: High Winds
-          #url: /examples/damaging-winds
-        #- title: Heat Wave
-          #url: /examples/heat-waves
-        #- title: Cold Spells
-          #url: /examples/cold-spells
-    #- title: Conclusion
-      #url: /recap

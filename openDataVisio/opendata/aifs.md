@@ -7,6 +7,7 @@ The ECMWF AIFS determenistic model generates single forecast runs at 00, 06, 12,
 The AIFS ensemble model output data are not yet open to the public.
 ```
 
+## The AIFS datasets
 The AIFS products are released as soon as the data are produced. The open data are produced at 0.25 degrees resolution in GRIB edition 2 format.
 
 More information about the file-naming convention is available on the [IFS](./ifs.md) (Integrated Forecasting System) Data webpage.

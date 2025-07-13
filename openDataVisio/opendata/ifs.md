@@ -9,6 +9,7 @@ The medium-range forecasts consist of a high-resolution (HRES) forecast and the 
 The long-range (seasonal) forecast provide information about the Earth system components (atmosphere, ocean, land) up to 7 months into the future.
 ```
 
+## The IFS datasets
 These products are produced at 0.25 degrees resolution in GRIB edition 2 format and are available 1 hour after the [real-time dissemination schedule](https://confluence.ecmwf.int/display/DAC/Dissemination+schedule). The files are named as `ROOT`/`yyyymmdd`/`HH`z/`model`/`resol`/`stream`/`yyyymmdd` `HH`0000-`step` `U`-`stream`-`type`.`format`.
 
 :::{table} File-naming convention of the ECMWF IFS model outputs.
