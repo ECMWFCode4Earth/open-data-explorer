@@ -40,12 +40,18 @@ project:
       children:
         - file: ./examples/thunderstorms.ipynb
           title: Thunderstorms
-        - file: ./examples/heavy-rain.ipynb
-          title: Heavy Rain
-        - file: ./examples/damaging-winds.ipynb
-          title: High Winds
-        - file: ./examples/heat-waves.ipynb
-          title: Heat Wave
+        - file: ./examples/heavy-rain-aifs.ipynb
+          title: Heavy Rain - AIFS
+        - file: ./examples/heavy-rain-ifs.ipynb
+          title: Heavy Rain - IFS
+        - file: ./examples/damaging-winds-aifs.ipynb
+          title: High Winds - AIFS
+        - file: ./examples/damaging-winds-ifs.ipynb
+          title: High Winds - IFS
+        - file: ./examples/heat-waves-aifs.ipynb
+          title: Heat Wave - AIFS
+        - file: ./examples/heat-waves-ifs.ipynb
+          title: Heat Wave - IFS
         - file: ./examples/cold-spells.ipynb
           title: Cold Spells
     - file: recap.md
