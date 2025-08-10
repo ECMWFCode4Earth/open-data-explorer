@@ -9,7 +9,22 @@ project:
   keywords:
       - jupyter-book
       - open data explorer
-  authors: aswind-1h2h3
+  authors:
+      - name: Alenka Senica
+        affiliations:
+          - Code for Earth 
+      - name: Milana Vučković
+        affiliations:
+          - ECMWF
+      - name: Christopher Polster
+        affiliations:
+          - ECMWF
+      - name: Maartje Kuilman
+        affiliations:
+          - ECMWF
+      - name: Yigit Altintas
+        affiliations:
+          - ECMWF
   github: https://github.com/ECMWFCode4Earth/open-data-explorer/
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
@@ -18,10 +33,10 @@ project:
     - title: Open Data
       children:
       # the subchapter Data Structure included
-        - file: ./opendata/ifs.md 
-          title: Integrated Forecasting System
-        - file: ./opendata/aifs.md
-          title: Artificial Intelligence Forecasting System
+        - file: ./opendata/ifs-aifs.md 
+          title: IFS and AIFS
+        - file: ./opendata/file-naming-convention.md
+          title: File-naming convention on real-time data
         - file: ./opendata/parameters.md
           title: Weather Variables
     - title: Accessing Data
@@ -38,8 +53,8 @@ project:
           title: Open-meteo
     - title: Case Studies
       children:
-        - file: ./examples/thunderstorms.ipynb
-          title: Thunderstorms
+        #- file: ./examples/thunderstorms.ipynb
+          #title: Thunderstorms
         - file: ./examples/heavy-rain-aifs.ipynb
           title: Heavy Rain - AIFS
         - file: ./examples/heavy-rain-ifs.ipynb
@@ -54,6 +69,8 @@ project:
           title: Heat Wave - IFS
         - file: ./examples/cold-spells.ipynb
           title: Cold Spells
+        - file: ./examples/tropical-cyclone.ipynb
+          title: Tropical Cyclone
     - file: recap.md
     - file: appendix.md
 
@@ -63,7 +80,7 @@ site:
       folders: true
       favicon: ./_static/favicon.ico
       logo: ./images/logo_challenge32.png
-      style: ./_static/styling.css
+      #style: ./_static/styling.css
   #nav:
     #- title: About
       #url: /real-time-data/about

@@ -49,6 +49,9 @@
 | -------- | ---- |
 | fc | Forecast |
 | ef | Errors in first guess  |
+| cf | Control forecast  |
+| pf | Perturbed forecast |
+| tf | Trajectory forecast |
 :::
 
 :::{seealso}
