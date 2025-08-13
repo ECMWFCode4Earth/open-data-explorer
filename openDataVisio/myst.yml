@@ -53,8 +53,10 @@ project:
           title: Open-meteo
     - title: Case Studies
       children:
-        #- file: ./examples/thunderstorms.ipynb
-          #title: Thunderstorms
+        - file: ./examples/heat-waves-aifs.ipynb
+          title: Heat Wave - AIFS
+        - file: ./examples/heat-waves-ifs.ipynb
+          title: Heat Wave - IFS
         - file: ./examples/heavy-rain-aifs.ipynb
           title: Heavy Rain - AIFS
         - file: ./examples/heavy-rain-ifs.ipynb
@@ -63,14 +65,14 @@ project:
           title: High Winds - AIFS
         - file: ./examples/damaging-winds-ifs.ipynb
           title: High Winds - IFS
-        - file: ./examples/heat-waves-aifs.ipynb
-          title: Heat Wave - AIFS
-        - file: ./examples/heat-waves-ifs.ipynb
-          title: Heat Wave - IFS
-        - file: ./examples/cold-spells.ipynb
-          title: Cold Spells
+        - file: ./examples/cold-spells-aifs.ipynb
+          title: Cold Spells - AIFS
+        - file: ./examples/cold-spells-ifs.ipynb
+          title: Cold Spells - IFS
         - file: ./examples/tropical-cyclone.ipynb
           title: Tropical Cyclone
+        #- file: ./examples/thunderstorms.ipynb
+          #title: Thunderstorms
     - file: recap.md
     - file: appendix.md
 

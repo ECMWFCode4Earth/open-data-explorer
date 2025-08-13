@@ -1,4 +1,4 @@
-# Open Data - IFS and AIFS
+# IFS and AIFS
 ---
 
 ECMWF open data policy includes data from both the Integrated Forecasting System ([IFS](https://www.ecmwf.int/en/forecasts/datasets/open-data)) and the Artificial Intelligence Forecasting System ([AIFS](https://www.ecmwf.int/en/forecasts/datasets/set-ix)) models. The data is provided at the highest available resolution. They are released under a Creative Commons Attribution 4.0 International licence, allowing for commercial and non-commercial use with appropriate attribution. <br>
