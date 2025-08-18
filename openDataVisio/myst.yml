@@ -9,22 +9,6 @@ project:
   keywords:
       - jupyter-book
       - open data explorer
-  authors:
-      - name: Alenka Senica
-        affiliations:
-          - Code for Earth 
-      - name: Milana Vučković
-        affiliations:
-          - ECMWF
-      - name: Christopher Polster
-        affiliations:
-          - ECMWF
-      - name: Maartje Kuilman
-        affiliations:
-          - ECMWF
-      - name: Yigit Altintas
-        affiliations:
-          - ECMWF
   github: https://github.com/ECMWFCode4Earth/open-data-explorer/
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:

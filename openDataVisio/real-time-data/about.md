@@ -21,7 +21,7 @@ The ECMWF real-time open data empower a wide range of individuals, research comm
 flowchart LR
     A(ECMWF) -->|IFS| B{Open Data}
     A -->|AIFS| B
-    B --> C[fa:fa-seedling Agriculture]
+    B --> C[fa:fa-seddling Agriculture]
     B --> D[fa:fa-sun Energy]
     B --> E[fa:fa-truck Transportation]
     B --> F[fa:fa-calendar Logistics]

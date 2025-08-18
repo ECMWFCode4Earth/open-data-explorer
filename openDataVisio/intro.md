@@ -1,8 +1,27 @@
-# Welcome to the Open Data Visio
-
-## ECMWF real-time open weather data
+---
+title: Welcome to the Open Data Visio
+subtitle: ECMWF real-time open weather data
+license: Apache-2.0
+authors:
+  - name: Alenka Senica
+    affiliations:
+      - Code for Earth
+  - name: Milana Vučković
+    affiliations:
+      - ECMWF
+  - name: Christopher Polster
+    affiliations:
+      - ECMWF
+  - name: Maartje Kuilman
+    affiliations:
+      - ECMWF
+  - name: Yigit Altintas
+    affiliations:
+      - ECMWF
+date: 2025-09-01
 ---
 
+<br>
 This one-stop shop Open Data Explorer provides you with tools to explore ECMWF real-time forecast data from the Integrated Forecasting System (IFS) and Artificial Intelligence Forecasting System (AIFS) models. These open data are available to the public free of charge.
 
 Are you a researcher, operational meteorologist or meteorology enthusiast?
