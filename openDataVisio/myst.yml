@@ -9,6 +9,7 @@ project:
   keywords:
       - jupyter-book
       - open data explorer
+  license: Apache-2.0
   github: https://github.com/ECMWFCode4Earth/open-data-explorer/
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
@@ -25,7 +26,7 @@ project:
           title: Weather Variables
     - title: Accessing Data
       children:
-        - file: ./datadownload/find-data.ipynb
+        - file: ./datadownload/find-data.md
           title: ECMWF Open Data
         - file: ./datadownload/retrieve-data.ipynb
           title: Retrieve Data
@@ -55,8 +56,8 @@ project:
           title: Cold Spells - IFS
         - file: ./examples/tropical-cyclone.ipynb
           title: Tropical Cyclone
-        #- file: ./examples/thunderstorms.ipynb
-          #title: Thunderstorms
+        - file: ./examples/real-time-forecasts.ipynb
+          title: Real-time Forecasts
     - file: recap.md
     - file: appendix.md
 
@@ -66,7 +67,4 @@ site:
       folders: true
       favicon: ./_static/favicon.ico
       logo: ./images/logo_challenge32.png
-      #style: ./_static/styling.css
-  #nav:
-    #- title: About
-      #url: /real-time-data/about
+      style: ./_static/icons_fontawesome.html
