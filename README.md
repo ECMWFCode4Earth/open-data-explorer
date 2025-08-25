@@ -1,6 +1,11 @@
 # ECMWF Open Data Explorer
 
-The repository contains [Jupyter notebook-based tutorials](https://ecmwfcode4earth.github.io/open-data-explorer/) which will offer you the support for accessing [open data](https://confluence.ecmwf.int/display/DAC/ECMWF+open+data%3A+real-time+forecasts+from+IFS+and+AIFS), downloading data, and data analysis using Python libraries.
+[![Ecosystem-MyST-md](https://img.shields.io/badge/Ecosystem-MyST-md
+)](https://mystmd.org/) [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+This one-stop shop [Open Data Explorer](https://ecmwfcode4earth.github.io/open-data-explorer/) provides you with tools to explore ECMWF real-time forecast data from the Integrated Forecasting System and Artificial Intelligence Forecasting System models. [Open data](https://confluence.ecmwf.int/display/DAC/ECMWF+open+data%3A+real-time+forecasts+from+IFS+and+AIFS) are published under a [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](https://apps.ecmwf.int/datasets/licences/general/) and available to the public free of charge.
+
+The repository contains Jupyter notebook-based tutorials which will offer you the support for accessing open data, downloading data, and data analysis using Python libraries.
 
 > This project has been developed during the [Code for Earth](https://codeforearth.ecmwf.int/) innovation programme run by the European Centre for Medium-Range Weather Forecasts (ECMWF). The challenge description is available [here](https://github.com/ECMWFCode4Earth/Challenges_2025/issues/7).
 
@@ -14,14 +19,19 @@ python3 -m venv venv
 source venv/bin/activate
 
 python3 -m pip install --upgrade pip
-
-# Install all of the packages (including jupyterlab, jupyterlab_myst, and jupyter-book)
+```
+❗ **NOTE:** When executing the command below, all the packages including jupyterlab, jupyterlab_myst, and jupyter-book will be installed. However, we recommend you to install these packages separately. 
+```
 python3 -m pip install -r requirements.txt
 ```
+
 At the end of using your virtual environment, you deactivate it with
 ```
 deactivate
 ```
+
+- Jupyter Book: <br>
+
 The notebooks should be rendered with [`jupyterlab_myst`](https://mystmd.org/guide/quickstart-jupyter-lab-myst) as we will be using [JupyterLab](https://jupyterlab.readthedocs.io/en/latest/).
 ```
 pip install jupyterlab
@@ -73,4 +83,3 @@ To build a locally-served website, you will execute
 jupyter book start
 ```
 
-*To be continued...*
