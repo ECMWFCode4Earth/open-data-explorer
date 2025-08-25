@@ -1,13 +1,14 @@
 # Introduction
 ---
 
-ECMWF open data policy includes data from both the Integrated Forecasting System ([IFS](https://www.ecmwf.int/en/forecasts/datasets/open-data)) and the Artificial Intelligence Forecasting System ([AIFS](https://www.ecmwf.int/en/forecasts/datasets/set-ix)) models. [The latter](https://www.ecmwf.int/en/forecasts/dataset/aifs-machine-learning-data) consists of a deterministic model and an ensemble model. The data is provided at the highest available resolution. They are released under a Creative Commons Attribution 4.0 International licence, allowing for commercial and non-commercial use with appropriate attribution. <br>
+ECMWF open data policy includes data from both the Integrated Forecasting System ([IFS](https://www.ecmwf.int/en/forecasts/datasets/open-data)) and the Artificial Intelligence Forecasting System ([AIFS](https://www.ecmwf.int/en/forecasts/datasets/set-ix)) models. [The latter](https://www.ecmwf.int/en/forecasts/dataset/aifs-machine-learning-data) consists of a deterministic model and an ensemble model, however, ensemble products can also be found in IFS. The data is provided at the highest available resolution. They are released under a Creative Commons Attribution 4.0 International licence, allowing for commercial and non-commercial use with appropriate attribution. <br>
 
 Open data are a product of the high-resolution and ensemble as well as seasonal forecast models.
-
-```{attention}
+::::{margin}
+:::{attention}
 The seasonal forecast model output data are not yet open to the public.
-```
+:::
+::::
 
 ```{dropdown} Medium-range forecast data 
 The medium-range forecasts consist of the forecast ensemble (ENS) which provide the information about the evolution of weather up to 15 days ahead. ENS is a probabilistic forecast system of 51 forecasts. One is a control forecast, the other 50 forecasts are produced with slightly altered initial conditions and model physics. ENS indicates the range of possible weather conditions out to 15 days ahead, including the probability of occurrence of particular weather events.
@@ -23,15 +24,17 @@ Further information about the IFS model can be found [here](https://confluence.e
 
 ## AIFS Single Data
 
-The ECMWF AIFS determenistic model is a machine learing-driven model that generates single forecast runs at 00, 06, 12, and 18 UTC. It uses the operational IFS control initial condition. **Not all** AIFS parameters are freely and openly available. The current verion of the AIFS-Single has been operating since 25 February 2025.
+The ECMWF AIFS determenistic model is a machine learing-driven model that generates single forecast runs at 00, 06, 12, and 18 UTC. It uses the operational IFS control initial condition. **Not all** AIFS parameters are freely and openly available. The current verion of the AIFS Single has been operating since 25 February 2025.
 
 :::{seealso}
 Further information about the AIFS Single model can be found [here](https://confluence.ecmwf.int/display/FCST/Implementation+of+AIFS+Single+v1).
 :::
 
-```{note}
+::::{margin}
+:::{note}
 In two case studies, we analysed open AIFS parameters which were retieved from `aifs` and not `aifs-single` forecasts datasets. These data are made accessible to users before February 2025. 
-```
+:::
+::::
 
 ## AIFS Ensemble Data
 
@@ -41,4 +44,4 @@ A first version of the probabilistic model of the AIFS has been operational sinc
 Further information about the AIFS Ensemble model can be found [here](https://confluence.ecmwf.int/display/FCST/Implementation+of+AIFS+ENS+v1).
 :::
 
-Currently, a subset of the products provided by AIFS **are not** also available in AIFS ENS.
+Currently, a subset of the products provided by AIFS Single **are not** also available in AIFS ENS.

@@ -3,8 +3,6 @@
 ECMWF has committed itself to making weather data more accessible and impactful. The open meteorological data support global initiatives, such as the [Early Warning for All initiative](https://wmo.int/activities/early-warnings-all/wmo-and-early-warnings-all-initiative) of the World Meteorological Organization (WMO) and the [United Nations Office for Disaster Risk Reduction](https://www.undrr.org/) (UNDRR). ECMWF open datasets also help foster the widespread use of high-resolution data among scientific, commercial, and operational users.
 
 :::{figure} ../images/istockphoto-openweatherdata.jpg
-:label: fig:openweatherdata
-
 Source: iStock by Getty Images
 :::
 
@@ -21,16 +19,16 @@ The ECMWF real-time open data empower a wide range of individuals, research comm
 flowchart LR
     A(ECMWF) -->|IFS| B{Open Data}
     A -->|AIFS| B
-    B --> C[fa:fa-seddling Agriculture]
+    B --> C[fa:fa-seedling Agriculture]
     B --> D[fa:fa-sun Energy]
-    B --> E[fa:fa-truck Transportation]
-    B --> F[fa:fa-calendar Logistics]
+    B --> E[fa:fa-truck-fast Transportation]
+    B --> F[fa:fa-calendar-check Logistics]
     B --> G[fa:fa-hand-holding-heart Disaster Management]
-    B --> H[fa:fa-money-bill Finance]
+    B --> H[fa:fa-euro-sign Finance]
     B --> I[fa:fa-stethoscope Healthcare]
     B --> J[fa:fa-rocket Research & Innovation]
-    B --> K[fa:fa-cart-plus Retail]
-    B --> L[fa:fa-building Construction]
+    B --> K[fa:fa-cart-shopping Retail]
+    B --> L[fa:fa-house Construction]
     B --> M[fa:fa-language Tourism]
     B --> N[fa:fa-handshake Insurance]
     B --> O[fa:fa-trophy Sports & Entertainment]

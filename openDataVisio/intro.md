@@ -1,7 +1,6 @@
 ---
 title: Welcome to the Open Data Visio
 subtitle: ECMWF real-time open weather data
-license: Apache-2.0
 authors:
   - name: Alenka Senica
     affiliations:

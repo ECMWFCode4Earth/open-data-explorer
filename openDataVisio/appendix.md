@@ -38,7 +38,7 @@
 
 | Keyword | Description | Forecasting System | Reference Time | List of Time Steps |
 | -------- | ---- | -------- | ---- | ---- |
-| step | The forecast time step in hours from the forecast base time. | Control Forecast | 00 and 12 UTC | from 0 to 144 by 3 and from 150 to 360 by 6 |
+| step | The forecast time step in hours from the forecast base time. | Control Forecasts (HRES products) | 00 and 12 UTC | from 0 to 144 by 3 and from 150 to 360 by 6 |
 |  |  |  | 06 and 18 UTC | from 0 to 144 by 3 |
 |  |  | Tropical cyclones tracks - HRES | 00 and 12 UTC | from 0 to 240 |
 |  |  |  | 06 and 18 UTC | from 0 to 90 |

@@ -105,12 +105,13 @@ The examples below show a line extracted from an index file of the:
 ```
 {"domain": "g", "date": "20250608", "time": "0000", "expver": "0001", "class": "od", "type": "fc", "stream": "oper", "levtype": "sfc", "step": "0", "param": "tp", "_offset": 14804835, "_length": 224}
 ```
-- AIFS:
 ::::{margin}
 :::{attention}
 Note the value of the `class` keyword which is `ai` in the case of the AIFS model. This value indicates the operational AIFS products and the `od` represents the operational archive.
 :::
 ::::
+
+- AIFS:
 
 ```
 {"domain": "g", "date": "20250608", "time": "0000", "expver": "0001", "class": "ai", "type": "fc", "stream": "oper", "step": "0", "levtype": "sfc", "param": "100v", "_offset": 0, "_length": 1382370}
@@ -119,8 +120,10 @@ Note the value of the `class` keyword which is `ai` in the case of the AIFS mode
 ```
 {"domain": "g", "date": "20250803", "time": "0000", "expver": "0001", "class": "ai", "type": "cf", "stream": "enfo", "step": "0", "levtype": "sfc", "param": "2t", "model": "aifs-ens", "_offset": 61637992, "_length": 618016}
 ```
+::::{margin}
 :::{important}
 Index files of the AIFS ENS products have the additional parameter `model`.
 :::
+::::
 
 [^1]: Further information can be found in the [Appendix](../appendix.md).
