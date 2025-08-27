@@ -44,7 +44,7 @@
 |  |  |  | 06 and 18 UTC | from 0 to 90 |
 |  |  | ENS | 00 and 12 UTC | from 0 to 144 by 3 and from 150 to 360 by 6 |
 |  |  |  | 06 and 18 UTC | from 0 to 144 by 3 |
-|  |  | Tropical cyclones tracks - ENS | 00 and 12 UTC | from 0 to 360 |
+|  |  | Tropical cyclones tracks - ENS | 00 and 12 UTC | from 0 to 240 |
 |  |  |  | 06 and 18 UTC | from 0 to 144 |
 |  |  | Probabilities, daily weather events | 00 and 12 UTC | 0-24 to 336-360 by 12 |
 |  |  | Probabilities - atmosphere and wave |  | from 12 to 360 by 12 |
