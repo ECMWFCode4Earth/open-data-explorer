@@ -2,13 +2,14 @@ Cartopy==0.24.1
 earthkit==0.11.2
 earthkit-data==0.14.4
 earthkit-plots==0.3.1
-eccodes==2.41.0
 ecmwf-opendata==0.3.22
 geopandas==1.1.0
+json5==0.12.0
 jupyter-book==2.0.0a3
 jupyterlab==4.4.6
 jupyterlab_myst==2.4.2
 matplotlib==3.10.3
+mermaid-py==0.8.0
 openmeteo_requests==1.5.0
 openmeteo_sdk==1.20.1
 pandas==2.3.0
@@ -20,4 +21,5 @@ requests==2.32.4
 requests-cache==1.2.1
 retry-requests==2.0.0
 urllib3==2.5.0
+xagg==0.3.3.1
 xarray==2025.6.1
