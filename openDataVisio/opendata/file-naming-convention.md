@@ -34,7 +34,7 @@ IFS open data products are available at 0.25 degrees resolution, one hour after 
 | HH | reference time |
 | model | ifs |
 | resol | 0p25 |
-| stream | oper, enfo, waef, wave, scda, scwv |
+| stream | oper, enfo, waef, wave, scda, and scwv |
 | step | forecast time step |
 | U | unit of the time step (h) |
 | type | fc, ef (cf, pf), ep, and tc |
